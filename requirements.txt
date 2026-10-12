@@ -1,0 +1,18 @@
+# Core Scientific and Data Manipulation
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning & Text Processing
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Application Demo
+flask>=3.0.0
+
+# Interactive Notebook Development
+notebook>=7.0.0
+ipykernel>=6.25.0

@@ -1,0 +1,47 @@
+# Ignore raw, processed, and final data files except .gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/final/*
+!data/final/.gitkeep
+
+# Ignore trained model artifacts except .gitkeep
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python byte-code and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Streamlit config / cache
+.streamlit/secrets.toml
